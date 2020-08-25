@@ -1,0 +1,110 @@
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.PageBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.NeuBtn {
+  border: none;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 88%);
+  box-shadow: 5px 5px 10px hsl(0, 0%, 68%), -5px -5px 10px hsl(0, 0%, 98%),
+    inset 0px 0px 0px hsl(0, 0%, 88%), inset 0px 0px 0px hsl(0, 0%, 98%);
+  /* margin: auto; */
+  width: 26%;
+  height: 25rem;
+  margin: 3%;
+  padding: 1rem 0;
+  -webkit-transition: box-shadow 0.1s ease;
+  transition: box-shadow 0.1s ease;
+  outline: none;
+}
+
+.NeuBtn:active {
+  opacity: 1;
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+    inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.instagram:active {
+  color: #3f729b;
+}
+
+.twitter:active {
+  color: #00acee;
+}
+
+.line:active {
+  color: #00c300;
+}
+
+.youtube:active {
+ color: #FF0000;
+}
+
+.tiktok:active {
+ color: #757575;
+}
+
+.kakaotalk:active {
+ color: #ffe812;
+}
+
+.phone:active {
+ color: #7BB32E;
+}
+
+.NeuBtn:active .dot-leaders {
+ color: #757575;
+}
+
+.dot-leaders {
+  font-size:2.6rem;
+  margin-left: 1.5rem;
+}
+
+
+.img-wrap {
+  margin-top: 1.5rem;
+  text-align: center;
+  margin-bottom:40%;
+}
+
+.title {
+  font-size: 1.3rem;
+  text-align:center;
+}
+
+.username {
+  text-align:center;
+}
+
+img {
+  margin-top:0;
+  height:100%;
+  width: 33%;
+}
+
+.icon-img {
+  margin-top:0;
+  height:100%;
+  width: 33%;
+}
+
+@media screen and (max-width:768px) {
+  .PageBody {
+    flex-direction: column;
+  }
+
+  .NeuBtn {
+    width: 70%;
+    margin: 8%;
+  }
+} 
