@@ -97,7 +97,7 @@ function App() {
           <InlineSVG class="icon-img instagram-icon-img" src={InstagramSvg} />
         </div>
         <p class="title">Instagram</p>
-        <p class="username">@sample</p>
+        {/* <p class="username">@sample</p> */}
       </a>
       <a href="https://twitter.com/home" class="NeuBtn twitter" target="_blank">
         <object><a class="dot-leaders">···</a></object>
@@ -106,16 +106,16 @@ function App() {
           <InlineSVG class="icon-img twitter-icon-img" src={TwitterSvg} />
         </div>
         <p class="title">Twitter</p>
-        <p class="username">@sample</p>
+        {/* <p class="username">@sample</p> */}
       </a>
-      <a class="NeuBtn line" target="_blank">
+      <a href="https://line.me/R/" class="NeuBtn line" target="_blank">
         <object><a class="dot-leaders">···</a></object>
         <div class="img-wrap">
           {/* <img src={LineImg} alt="" /> */}
           <InlineSVG class="icon-img line-icon-img" src={LineSvg} />
         </div>
         <p class="title">LINE</p>
-        <p class="username">sample</p>
+        {/* <p class="username">sample</p> */}
       </a>
       <a href="https://www.youtube.com/" class="NeuBtn youtube" target="_blank">
         <object><a class="dot-leaders">···</a></object>
@@ -124,35 +124,35 @@ function App() {
           <InlineSVG class="icon-img youtube-icon-img" src={YoutubeSvg} />
         </div>
         <p class="title">Youtube</p>
-        <p class="username">sample Channel</p>
+        {/* <p class="username">sample Channel</p> */}
       </a>
-      <a class="NeuBtn tiktok" target="_blank">
+      <a href="https://vt.tiktok.com/" class="NeuBtn tiktok" target="_blank">
         <object><a class="dot-leaders">···</a></object>
         <div class="img-wrap">
           {/* <img src={TikTokImg} alt="" /> */}
           <InlineSVG class="icon-img tiktok-icon-img" src={TiktokSvg} />
         </div>
         <p class="title">TikTok</p>
-        <p class="username">@sample</p>
+        {/* <p class="username">@sample</p> */}
       </a>
-      <a class="NeuBtn kakaotalk" target="_blank">
+      <a href="http://www.kakaotalk.jp/" class="NeuBtn kakaotalk" target="_blank">
         <object><a class="dot-leaders">···</a></object>
         <div class="img-wrap">
           {/* <img src={KakaoImg} alt="" /> */}
           <InlineSVG class="icon-img kakao-icon-img" src={KakaoSvg} />
         </div>
         <p class="title">kakaotalk</p>
-        <p class="username">sample</p>
+        {/* <p class="username">sample</p> */}
       </a>
-      <a class="NeuBtn phone" target="_blank">
+      {/* <a class="NeuBtn phone" target="_blank">
         <object><object><a class="dot-leaders">···</a></object></object>
         <div class="img-wrap">
           {/* <img src={PhoneImg} alt="" /> */}
-          <InlineSVG class="icon-img phone-icon-img" src={PhoneSvg} />
-        </div>
+      {/* <InlineSVG class="icon-img phone-icon-img" src={PhoneSvg} /> */}
+      {/*        </div>
         <p class="title">Phone</p>
         <p class="username">012-3456-7890</p>
-      </a>
+      </a> */}
     </div >
   );
 }
