@@ -1,6 +1,7 @@
 a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .PageBody {
