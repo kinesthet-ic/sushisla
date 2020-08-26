@@ -135,15 +135,15 @@ function App() {
         <p class="title">TikTok</p>
         {/* <p class="username">@sample</p> */}
       </a>
-      <a href="http://www.kakaotalk.jp/" class="NeuBtn kakaotalk" target="_blank">
+      {/* <a href="http://www.kakaotalk.jp/" class="NeuBtn kakaotalk" target="_blank">
         <object><a class="dot-leaders">···</a></object>
-        <div class="img-wrap">
-          {/* <img src={KakaoImg} alt="" /> */}
-          <InlineSVG class="icon-img kakao-icon-img" src={KakaoSvg} />
-        </div>
-        <p class="title">kakaotalk</p>
-        {/* <p class="username">sample</p> */}
-      </a>
+        <div class="img-wrap"> */}
+      {/* <img src={KakaoImg} alt="" /> */}
+      {/* <InlineSVG class="icon-img kakao-icon-img" src={KakaoSvg} />
+        </div> */}
+      {/* <p class="title">kakaotalk</p> */}
+      {/* <p class="username">sample</p> */}
+      {/* </a> */}
       {/* <a class="NeuBtn phone" target="_blank">
         <object><object><a class="dot-leaders">···</a></object></object>
         <div class="img-wrap">
@@ -153,6 +153,7 @@ function App() {
         <p class="title">Phone</p>
         <p class="username">012-3456-7890</p>
       </a> */}
+
     </div >
   );
 }
