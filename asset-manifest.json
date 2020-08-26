@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sushisla/static/css/main.809f794b.chunk.css",
+    "main.js": "/sushisla/static/js/main.ec970076.chunk.js",
+    "main.js.map": "/sushisla/static/js/main.ec970076.chunk.js.map",
+    "runtime-main.js": "/sushisla/static/js/runtime-main.50bf9cd2.js",
+    "runtime-main.js.map": "/sushisla/static/js/runtime-main.50bf9cd2.js.map",
+    "static/js/2.af9883c9.chunk.js": "/sushisla/static/js/2.af9883c9.chunk.js",
+    "static/js/2.af9883c9.chunk.js.map": "/sushisla/static/js/2.af9883c9.chunk.js.map",
+    "index.html": "/sushisla/index.html",
+    "precache-manifest.0d1fc9aca5775d4544601872dff1b32d.js": "/sushisla/precache-manifest.0d1fc9aca5775d4544601872dff1b32d.js",
+    "service-worker.js": "/sushisla/service-worker.js",
+    "static/css/main.809f794b.chunk.css.map": "/sushisla/static/css/main.809f794b.chunk.css.map",
+    "static/js/2.af9883c9.chunk.js.LICENSE.txt": "/sushisla/static/js/2.af9883c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50bf9cd2.js",
+    "static/js/2.af9883c9.chunk.js",
+    "static/css/main.809f794b.chunk.css",
+    "static/js/main.ec970076.chunk.js"
+  ]
+}
