@@ -126,15 +126,15 @@ function App() {
         <p class="title">Youtube</p>
         {/* <p class="username">sample Channel</p> */}
       </a>
-      {/* <a href="https://vt.tiktok.com/" class="NeuBtn tiktok" target="_blank">
+      <a href="https://vt.tiktok.com/" class="NeuBtn tiktok" target="_blank">
         <object><a class="dot-leaders">···</a></object>
-        <div class="img-wrap"> */}
-      {/* <img src={TikTokImg} alt="" /> */}
-      {/* <InlineSVG class="icon-img tiktok-icon-img" src={TiktokSvg} />
+        <div class="img-wrap">
+          {/* <img src={TikTokImg} alt="" /> */}
+          <InlineSVG class="icon-img tiktok-icon-img" src={TiktokSvg} />
         </div>
-        <p class="title">TikTok</p> */}
-      {/* <p class="username">@sample</p> */}
-      {/* </a> */}
+        <p class="title">TikTok</p>
+        {/* <p class="username">@sample</p> */}
+      </a>
       {/* <a href="http://www.kakaotalk.jp/" class="NeuBtn kakaotalk" target="_blank">
         <object><a class="dot-leaders">···</a></object>
         <div class="img-wrap"> */}
