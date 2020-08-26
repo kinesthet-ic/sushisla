@@ -27,6 +27,24 @@ a {
   outline: none;
 }
 
+.twitter svg {
+  fill: black;
+}
+
+.instagram svg .fill_1,
+.instagram svg .fill_2,
+.instagram svg .fill_3 {
+  fill: hsl(0, 0%, 0%);
+}
+
+.tiktok svg .fill_1,
+.tiktok svg .fill_2,
+.tiktok svg .fill_3,
+.tiktok svg .fill_4 {
+  fill: none;
+  stroke: black;
+}
+
 .NeuBtn:active {
   opacity: 1;
   box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
@@ -37,28 +55,61 @@ a {
   color: #3f729b;
 }
 
+.instagram:active svg .fill_1,
+.instagram:active svg .fill_2,
+.instagram:active svg .fill_3 {
+  fill: #3f729b;
+}
+
 .twitter:active {
   color: #00acee;
+}
+
+.twitter:active svg {
+  fill: #00acee;
 }
 
 .line:active {
   color: #00c300;
 }
 
+.line:active .icon-img .fill_1{
+  fill: #00c300;
+}
+
 .youtube:active {
  color: #FF0000;
+}
+
+.youtube:active svg {
+  fill: #ff0000;
 }
 
 .tiktok:active {
  color: #757575;
 }
 
+.tiktok:active svg .fill_1,
+.tiktok:active svg .fill_2,
+.tiktok:active svg .fill_3,
+.tiktok:active svg .fill_4 {
+  stroke: #757575;
+}
+
 .kakaotalk:active {
  color: #ffe812;
 }
 
+.kakaotalk:active svg {
+  fill: #ffe812;
+}
+
 .phone:active {
  color: #7BB32E;
+}
+
+.phone:active svg {
+  fill: #7BB32E;
 }
 
 .NeuBtn:active .dot-leaders {
@@ -92,7 +143,7 @@ img {
   width: 33%;
 }
 
-.icon-img {
+.icon-img svg{
   margin-top:0;
   height:100%;
   width: 33%;
