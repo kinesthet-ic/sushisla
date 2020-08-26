@@ -9,7 +9,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "gulp": "^4.0.2",
+    // "gulp": "^4.0.2",
     "history": "^5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -18,9 +18,9 @@
     "svg-inline-react": "^3.2.0"
   },
   "scripts": {
-    "gulp": "gulp",
-    "minify": "gulp minify",
-    "postinstall": "gulp browserify",
+    // "gulp": "gulp",
+    // "minify": "gulp minify",
+    // "postinstall": "gulp browserify",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
