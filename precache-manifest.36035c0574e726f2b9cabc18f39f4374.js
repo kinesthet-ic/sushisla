@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68e859edf5f747bc80255e6e8a7916e8",
+    "revision": "b3a9a779cf9234bfcd8d6aefcd580670",
     "url": "/sushisla/build/index.html"
   },
   {
-    "revision": "5c5eced2485da9d4b21c",
+    "revision": "231480dd2cb99c2b2d73",
     "url": "/sushisla/build/static/css/main.76a295ca.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sushisla/build/static/js/2.af9883c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c5eced2485da9d4b21c",
-    "url": "/sushisla/build/static/js/main.ad73b8e0.chunk.js"
+    "revision": "231480dd2cb99c2b2d73",
+    "url": "/sushisla/build/static/js/main.4e1c5bbb.chunk.js"
   },
   {
     "revision": "dd4a5999272879def136",
