@@ -108,7 +108,7 @@ function App() {
         <p class="title">Twitter</p>
         {/* <p class="username">@sample</p> */}
       </a>
-      <a href="https://line.me/R/" class="NeuBtn line" target="_blank">
+      <a href="https://line.me/R/nv/addFriends" class="NeuBtn line" target="_blank">
         <object><a class="dot-leaders">···</a></object>
         <div class="img-wrap">
           {/* <img src={LineImg} alt="" /> */}
